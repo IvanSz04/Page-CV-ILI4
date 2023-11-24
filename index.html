@@ -75,15 +75,15 @@
 
 
     <section class = "formu" id ="Formulario">
-        <h1 class = "tittle2">Formulario CV</h1>
-        <form class = "form" name ="Formulario1">
+        <h1 class = "tittle2">Formulario CV</h1>q
+        <form  id= "miFormulario" class ="form" name ="Formulario1">
             <div class ="form1">
-                <label>Nombres:<input type="text" id="Nombre" name="nombre" placeholder="Nombres" required></label><br>
-                <label>Apellidos:<input type="text" id="Apellido" name="apellido" placeholder="Apellidos" required></label><br>
+                <label>Nombres:<input type="text" id="nombre" name="nombre" placeholder="Nombres" required></label><br>
+                <label>Apellidos:<input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></label><br>
                 <label>Genero:</label><br>
-                <label>Masculino <input type="radio"  name="genero" value="M" required></label><br>
-                <label>Femenino <input type="radio"  name="genero" value="F" required></label><br>
-                <label>Otro <input type="radio"  name="genero" value="Otro" required></label><br>
+                <label>Masculino <input type="radio"  id = "genero" name="genero" value="M" required></label><br>
+                <label>Femenino <input type="radio" id = "genero" name="genero" value="F" required></label><br>
+                <label>Otro <input type="radio" id = "genero" name="genero" value="Otro" required></label><br>
                 <label>Direccion:<input type="text" id="direccion" name="direccion" placeholder="Direccion" required></label><br>
                 <label>Telefono:<input type="text" id="telefono" name="telefono" placeholder="Telefono" required></label><br>
                 <label>E-Mail:<input type="text" id="mail" name="mail" placeholder="E-Mail" required></label><br>
@@ -98,23 +98,16 @@
                 <label>Posgrado <input type="radio"  name="estudio" value="Otro" required></label><br>
                 <label>Especializacion <input type="radio"  name="estudio" value="Otro" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                 <label>Maestria <input type="radio"  name="estudio" value="Otro" required></label><br>
-                <label for = "foto">Foto de ti </label>
-                <input type="file" id="foto" name="foto" required>  
                 <label>Titulos: <input type="text" id="titulo" name="titulo" placeholder="Escriba que titulos tiene"></label><br>
+                <label for = "foto">Foto de ti </label>
+                <input type="file" id="foto" name="foto" >  
+                
 
-                <input type="button" value="Enviar Datos" onclick="enviarDatos()">
+                <button type="button" value="Enviar Datos" onclick="mostrarDatos()" >Enviar Datos</button>
             </div>
             <div class = form3>
                 <label for="expLab">Experiencia Laboral: </label><br>
                 <textarea class ="taexpLab" id="expLab" name="expLab"  placeholder="Describa brevemente su experiencia laboral (Donde ha trabajado y por cuanto tiempo.)" required></textarea><br>
-                <table>
-                    <tr>
-                        <td>Nombre:</td><td><input type="text" name="nombreObt" id="nombreObt"></td>
-                    </tr>
-                    <tr>
-                        <td>Apellido:</td><td><input type="text" name="apellidoObt" id="apellidoObt"></td>
-                    </tr>
-                </table>
             </div>
             <div class ="form4">
                 <label for="perfil">Perfil Personal (Aptitudes)</label><br>
