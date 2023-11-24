@@ -81,9 +81,9 @@
                 <label>Nombres:<input type="text" id="nombre" name="nombre" placeholder="Nombres" required></label><br>
                 <label>Apellidos:<input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></label><br>
                 <label>Genero:</label><br>
-                <label>Masculino <input type="radio"  id = "genero" name="genero" value="M" required></label><br>
-                <label>Femenino <input type="radio" id = "genero" name="genero" value="F" required></label><br>
-                <label>Otro <input type="radio" id = "genero" name="genero" value="Otro" required></label><br>
+                <label>Masculino <input type="radio"  id = "genero" name="genero" value="hombre" required></label><br>
+                <label>Femenino <input type="radio" id = "genero" name="genero" value="mujer" required></label><br>
+                <label>Otro <input type="radio" id = "genero" name="genero" value=" de sexo indefinido" required></label><br>
                 <label>Direccion:<input type="text" id="direccion" name="direccion" placeholder="Direccion" required></label><br>
                 <label>Telefono:<input type="text" id="telefono" name="telefono" placeholder="Telefono" required></label><br>
                 <label>E-Mail:<input type="text" id="mail" name="mail" placeholder="E-Mail" required></label><br>
@@ -95,12 +95,12 @@
                 <label>Tecnico <input type="radio"  name="estudio" value="tecnico" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                 <label>Tecnologo <input type="radio"  name="estudio" value="tecnologo" required></label><br>
                 <label>Pregrado <input type="radio"  name="estudio" value="pregrado" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                <label>Posgrado <input type="radio"  name="estudio" value="Otro" required></label><br>
-                <label>Especializacion <input type="radio"  name="estudio" value="Otro" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                <label>Maestria <input type="radio"  name="estudio" value="Otro" required></label><br>
+                <label>Posgrado <input type="radio"  name="estudio" value="posgrado" required></label><br>
+                <label>Especializacion <input type="radio"  name="estudio" value="especializacion" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <label>Maestria <input type="radio"  name="estudio" value="maestria" required></label><br>
                 <label>Titulos: <input type="text" id="titulo" name="titulo" placeholder="Escriba que titulos tiene"></label><br>
                 <label for = "foto">Foto de ti </label>
-                <input type="file" id="foto" name="foto" >  
+                <input type="file" id="foto" name="foto" accept=".PNG, .JPG, .JPEG" >  
                 
 
                 <button type="button" value="Enviar Datos" onclick="mostrarDatos()" >Enviar Datos</button>
