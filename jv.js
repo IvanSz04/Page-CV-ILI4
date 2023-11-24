@@ -11,7 +11,7 @@
 
       // Crear una cadena con los datos
       
-      var Datos = "Hola, mi nombre es " + nombre + " " + apellido +" y soy "+ opcion+". Hice un "+estudioO+"en"+ttlo;
+      var Datos = "Hola, mi nombre es " + nombre + " " + apellido +" y soy "+ opcion+". Hice un "+estudioO+" en "+ttlo;
 
       // Abrir una nueva ventana con los datos
       var nuevaVentana = window.open('', '_blank');
