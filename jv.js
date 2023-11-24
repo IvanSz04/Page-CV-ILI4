@@ -1,10 +1,13 @@
-function enviarDatos() {
-  // Obtener los valores de los campos
-  var nombre = document.getElementById('Nombre').value;
-  var apellido = document.getElementById('Apellido').value;
+    function mostrarDatos() {
+      // Obtener los valores de los campos
+      var nombre = document.getElementById("nombre").value;
+      var apellido = document.getElementById("apellido").value;
+      var genero = document.getElementById("apellido").value;
 
+      // Crear una cadena con los datos
+      var Datos = "Hola, mi nombre es" + nombre + "" + apellido + genero+"";
 
-  document.Formulario1.nombreObt.value = nombre;
-  document.Formulario1.apellidoObt.value = apellido;
-
-}
+      // Abrir una nueva ventana con los datos
+      var nuevaVentana = window.open('', '_blank');
+      nuevaVentana.document.write('<html><head><title>Tu Hoja de Vida</title></head><body>' + Datos + '</body></html>');
+    }
