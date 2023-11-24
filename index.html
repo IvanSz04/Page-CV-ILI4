@@ -76,10 +76,10 @@
 
     <section class = "formu" id ="Formulario">
         <h1 class = "tittle2">Formulario CV</h1>
-        <form action="Hoja_de_vida.php" method="POST" class="form" name = "Formulario1" >
+        <form class = "form" name ="Formulario1">
             <div class ="form1">
                 <label>Nombres:<input type="text" id="Nombre" name="nombre" placeholder="Nombres" required></label><br>
-                <label>Apellidos:<input type="text" id="Apellido" name="apellido" placeholder="Apellidos" required></label>      
+                <label>Apellidos:<input type="text" id="Apellido" name="apellido" placeholder="Apellidos" required></label><br>
                 <label>Genero:</label><br>
                 <label>Masculino <input type="radio"  name="genero" value="M" required></label><br>
                 <label>Femenino <input type="radio"  name="genero" value="F" required></label><br>
@@ -101,8 +101,8 @@
                 <label for = "foto">Foto de ti </label>
                 <input type="file" id="foto" name="foto" required>  
                 <label>Titulos: <input type="text" id="titulo" name="titulo" placeholder="Escriba que titulos tiene"></label><br>
-                <input type="submit" name="enviar" value="Enviar Datos" >
-                
+
+                <input type="button" value="Enviar Datos" onclick="enviarDatos()">
             </div>
             <div class = form3>
                 <label for="expLab">Experiencia Laboral: </label><br>
@@ -120,7 +120,7 @@
                 <label for="perfil">Perfil Personal (Aptitudes)</label><br>
                 <textarea class = "taperfil" id="perfilPe" name="perfilPe"  placeholder="Describa brevemente sus aptitudes y el por que deben contratarlo." required></textarea><br>
                          
-            </div> -->        
+            </div>           
         </form>
     </section>
 
