@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+/*Encabezado */
+.encabezado{
+  text-align: center;
+  display: grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 90;
+  background-color: rgb(90, 89, 89);
+}
+
+.info{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2em;
+  color: beige;
+}
+
+.link_{
+  color: beige;
+  font-size: 15px;
+}
+
+
+
+
+
+.welcome{
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.tittle1{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.p1{
+  font-size: 20px;
+}
+
+
+
+
+
+.full2{
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.hoja{
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.CV{
+  text-align: center;
+}
+.p2{
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+.QS{
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tituloO{
+  text-align: center;
+}
+.Objetivos{
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.QuienesS{
+  text-align: center;
+}
+
+.img1{
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.p3{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.acontinuacion_{
+  display: grid;
+  text-align: center ;
+  background-color:rgb(231, 224, 238);
+  overflow: hidden;
+  margin-bottom:40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.acontinuacion_tittle{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.acontinuacion_paragraph{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.tittle2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+
+.formu{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(188deg, #0000008c 0%, #0000008c 100%),url('../images/Empleo2.jpeg');
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 85%, 49% 100%, 0 85%);
+  z-index: inherit;
+  display:grid;
+  
+  
+}
+
+
+.form{
+  max-width: 90%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2em;
+  align-items: center;
+  margin-bottom: 120px;
+  margin-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: aliceblue;
+  display: grid;
+}
+
+
+.form1{
+  margin-top: 30px;
+  line-height: 2.5;
+}
+
+.form2{
+  margin-top: 30px;
+  line-height: 2.5;
+}
+.botonEnviar{
+  margin-top: 50px;
+}
+
+.form3{
+  margin-top: 30px;
+  line-height: 2.5;
+}
+.form4{
+  margin-top: 30px;
+  line-height: 2.5;
+}
+
+.taexpLab{
+  width: 300px;
+  height: 300px;
+  resize: none;
+}
+
+.taperfil{
+  width: 300px;
+  height: 300px;
+  resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+  background-color: rgb(90, 89, 89);
+  color: beige;
+}
+
+.columns{
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  color: beige;
+  
+}
+.tittle3{
+  color: beige;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+.whats{
+  display:block;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 13px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.column_two{
+  text-align: center;
+}
+.column_three{
+  text-align: center;
+}
+
+
+
+
+
+
+/*ESTA ES LA CONFIGURACION DE LA PAGINA SECUNDARIA*/
+
+.tittleP2{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

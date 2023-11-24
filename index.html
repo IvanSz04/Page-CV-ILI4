@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourCV Online</title>
+  <link rel="shortcut icon" href="./images/CV.svg" type=" image/x-icon">
+  <link rel="stylesheet" href="./CSS/normalize.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <script src="jv.js"></script>
+
+
+       <div class="encabezado">
+            <ul class="info">           
+                    <a href="#CV" class ="link_"><h3>Que es CV</h3></a>
+                    <a href="#QS" class ="link_"><h3>Quienes Somos/Objetivos</h3></a>
+                    <a href="#Formulario" class ="link_"><h3>Formulario</h3></a>
+                    <a href="#contact" class ="link_"><h3>Contacto</h3></a>
+            </ul>
+        </div>
+    
+
+
+
+
+    <section class = "full">
+        <div class ="welcome">
+            <h1 class ="tittle1">¡Bienvenidos a YourCV!</h1>
+            <p class ="p1">Estamos encantados de darte la bienvenida a nuestra plataforma, donde conectamos talento con oportunidades laborales emocionantes. </p>
+        </div>
+    </section>
+    <section class = "full2" id="CV">
+        <div>
+            <img src="./images/hoja.jpg" class = "hoja">
+        </div>
+        <div class ="welcome">
+            <h1 class ="CV">Hoja de Vida o CV</h1>
+            <p class ="p2">Una hoja de vida, también conocida como currículum vitae (CV), es un documento que proporciona un resumen detallado de la educación, experiencia laboral, habilidades y logros de una persona. Su propósito principal es presentar de manera clara y concisa la información relevante sobre el perfil de un individuo a un empleador potencial. Los currículos son esenciales durante procesos de búsqueda de empleo, solicitudes para programas académicos o solicitudes para oportunidades de investigación u otras actividades. </p>
+        </div>
+    </section>
+
+
+
+
+
+    <section class =QS id="QS">
+        <div class ="QuienesS">
+            <h1 class ="tituloQS">Quienes Somos</h1>
+            <p class = "p3">En YourCV, nos dedicamos apasionadamente a conectar a personas talentosas con oportunidades de empleo significativas. Creemos en el poder transformador del empleo y nos esforzamos por facilitar el camino para que los individuos encuentren trabajos que no solo coincidan con sus habilidades y experiencia, sino que también impulsen su desarrollo profesional y personal.</p>
+        </div>
+        
+        <div class=" image">
+            <img src="./images/empleo.jpg" class="img1">
+        </div>
+        
+        <div class ="Objetivos">
+            <ul>
+                <h1 class ="tituloO">Objetivos</h1>
+                <li>Lograr que un alto porcentaje de los candidatos registrados encuentren empleo adecuado a sus habilidades y experiencia.</li>
+                <li>Asegurar la satisfacción tanto de los empleadores como de los candidatos al proporcionar servicios eficientes y efectivos.</li>
+                <li>Contribuir al crecimiento económico de la comunidad proporcionando empleo y mejorando la estabilidad financiera de los individuos.</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class = "acontinuacion_" id="acont">
+        <h1 class ="acontinuacion_tittle">Acontinuacion...</h1>
+        <p class = "acontinuacion_paragraph">Acontinuacion podras llenar algunos datos basicos, sencillos pero indispensables que hacen parte de tu hoja de vida. Recuerda que debes enviar los datos siempre y cuando hayas llenado todas las casillas. </p>
+    </div>
+
+
+
+    <section class = "formu" id ="Formulario">
+        <h1 class = "tittle2">Formulario CV</h1>
+        <form action="Hoja_de_vida.php" method="POST">
+            
+                <label>Nombres:<input type="text" id="Nombre" name="nombre" placeholder="Nombres" required></label><br>
+                <label>Apellidos:<input type="text" id="Apellido" name="apellido" placeholder="Apellidos" required></label>
+                <input type="submit" name="enviar" value="Enviar Datos" >
+
+                <!--<div class ="form1">
+                <label>Genero:</label><br>
+                <label>Masculino <input type="radio"  name="genero" value="M" required></label><br>
+                <label>Femenino <input type="radio"  name="genero" value="F" required></label><br>
+                <label>Otro <input type="radio"  name="genero" value="Otro" required></label><br>
+                <label>Direccion:<input type="text" id="direccion" name="direccion" placeholder="Direccion" required></label><br>
+                <label>Telefono:<input type="text" id="telefono" name="telefono" placeholder="Telefono" required></label><br>
+                <label>E-Mail:<input type="text" id="mail" name="mail" placeholder="E-Mail" required></label><br>
+            </div>
+            <div class ="form2">                
+                <label>Estudios (Hasta donde culminaste estudios):</label><br>
+                <label>Primaria <input type="radio"  name="estudio" value="primaria" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <label>Secundaria <input type="radio"  name="estudio" value="secundaria" required></label><br>
+                <label>Tecnico <input type="radio"  name="estudio" value="tecnico" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <label>Tecnologo <input type="radio"  name="estudio" value="tecnologo" required></label><br>
+                <label>Pregrado <input type="radio"  name="estudio" value="pregrado" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <label>Posgrado <input type="radio"  name="estudio" value="Otro" required></label><br>
+                <label>Especializacion <input type="radio"  name="estudio" value="Otro" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <label>Maestria <input type="radio"  name="estudio" value="Otro" required></label><br>
+                <label for = "foto">Foto de ti </label>
+                <input type="file" id="foto" name="foto" required>  
+                <label>Titulos: <input type="text" id="titulo" name="titulo" placeholder="Escriba que titulos tiene"></label><br>
+
+                
+            </div>
+            <div class = form3>
+                <label for="expLab">Experiencia Laboral: </label><br>
+                <textarea class ="taexpLab" id="expLab" name="expLab"  placeholder="Describa brevemente su experiencia laboral (Donde ha trabajado y por cuanto tiempo.)" required></textarea><br>
+                <table>
+                    <tr>
+                        <td>Nombre:</td><td><input type="text" name="nombreObt" id="nombreObt"></td>
+                    </tr>
+                    <tr>
+                        <td>Apellido:</td><td><input type="text" name="apellidoObt" id="apellidoObt"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class ="form4">
+                <label for="perfil">Perfil Personal (Aptitudes)</label><br>
+                <textarea class = "taperfil" id="perfilPe" name="perfilPe"  placeholder="Describa brevemente sus aptitudes y el por que deben contratarlo." required></textarea><br>
+                         
+            </div> -->        
+        </form>
+    </section>
+
+
+
+    <section class="contact" id="contact">   
+        <div class="tittle3">
+            <h1 >Contacto</h1>
+        </div>
+        <div class = "columns">
+            <div class = column_one>
+                <a href="https://www.facebook.com/rio.fuentes.58910"><h3>Facebook <img src="./images/facebook.svg"></h3></a>
+                <a href=""><h3>Twitter <img  src="./images/twitter.svg"></h3></a>
+                <a href="https://instagram.com/your_cv2023?igshid=MTNiYzNiMzkwZA=="><h3>Instagram <img src="./images/insta.svg" ></h3></a>               
+                <a href=""><h3>YouTube <img  src="./images/youtube.svg" ></h3></a>
+                <div class ="whats">   
+                    <img src="./image/WhatsApp.svg" class ="logo_whatsapp" >
+                    <a href="https://wa.link/76vj6r" class ="what">Escríbenos a WhatsApp</a>
+                </div>
+            </div>
+            <div class = "column_two">
+                <h2 class ="tittle4">YourCV</h2>  
+                <img src="./images/CV (1).svg" class = "logo">             
+            </div>
+            <div class = "column_three">
+                <h2 class ="tittle4">Agradecimientos</h2> 
+                <p>Gracias por visitar nuestro sitio web. ¡Esperamos que encuentres la información que buscas y no dudes en regresar para obtener las últimas actualizaciones y noticias!</p>
+            </div>          
+        </div>        
+    </section>
+
+  
+
+</body> 
+</html>
